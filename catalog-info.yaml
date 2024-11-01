@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: "csb-server"
   title: "csb-server"
-  description: "csb-server api spec"
+  description: "csb-server api spec wh test"
   annotations:
     backstage.io/spectral-ruleset-url: https://raw.githubusercontent.com/smongiar/spectral-rules/main/ruleset.yaml
 spec:
