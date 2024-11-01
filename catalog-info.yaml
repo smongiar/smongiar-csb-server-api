@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "csb-server"
+  title: "csb-server"
+  description: "csb-server api spec"
+  annotations:
+    backstage.io/spectral-ruleset-url: https://raw.githubusercontent.com/smongiar/spectral-rules/main/ruleset.yaml
+spec:
+  type: openapi
+  system: system:default/smongiar
+  owner: "group:default/backstage-admins"
+  lifecycle: experimental
+  definition:
+    $openapi: https://github.com/smongiar/smongiar-csb-server-api/blob/main/specification.yaml
