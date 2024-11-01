@@ -2,7 +2,7 @@ openapi: 3.0.3
 info:
   title: csb-server
   description: |-
-    csb-server api spec
+    csb-server api spec an Webhook test
   version: 0.0.1
 servers:
   - url: "http://localhost:8080"
